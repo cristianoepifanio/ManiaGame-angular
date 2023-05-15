@@ -125,7 +125,8 @@ button{
     /* border: 2px solid black; */
     width: 80vw;
     /* height: 1000px; */
-    margin: 0 auto;
+    margin: 0 3rem;
+    justify-content: center;
     /* position: relative; */
 }
 .game{
@@ -163,11 +164,50 @@ button{
     opacity: 0.4;
     
 }
+#gm2::before{
+    background-image: url(../../assets/img/soccer-to-site.jpg);
+    background-size: cover;
+    background-position: center;
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.4;
+}
+#gm3::before{
+    
+    background-image: url(../../assets/img/cards-to-site.jpg);
+    background-size: cover;
+    background-position: center;
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.4;
+}
+#gm4::before{
+    
+    background-image: url(../../assets/img/chees-to-site.jpg);
+    background-size: cover;
+    background-position: center;
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.4;
+}
+#gm2,#gm4{
+    flex-direction: row-reverse;
+}
 
 @media screen and (max-width:630px) {
     /* ------------------------------------------------
     Game List config 1ª página
     ---------------------------------------------------*/
+    .gamesList{
+        /* border: 2px solid black; */
+        width: 80vw;
+        /* height: 1000px; */
+        margin: 0 auto;
+        /* position: relative; */
+    }
     .game{
         flex-direction:column;
         padding: 0.5rem;
