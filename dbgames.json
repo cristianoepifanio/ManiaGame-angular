@@ -1,0 +1,18 @@
+{
+    "produtos":[
+
+        {
+            "id":1,
+            "jogo": "nome do jogo",
+            "descricao": "descrição do jogo",
+            "preco": "preço do jogo"
+        },
+        {
+            "id":2,
+            "jogo": "nome do jogo",
+            "descricao": "descrição do jogo",
+            "preco": "preço do jogo"
+        }
+    ]
+    
+}
