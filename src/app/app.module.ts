@@ -10,6 +10,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { LojaComponent } from './loja/loja.component';
 import { CarrinhoComponent } from './carrinho/carrinho.component';
 import { RestritoComponent } from './restrito/restrito.component';
+// import { RestritoRoutingModule } from './restrito/restrito-routing.modules';
 import { AtualizarProdutoComponent } from './restrito/atualizar-produto/atualizar-produto.component';
 import { CadastroProdutoComponent } from './restrito/cadastro-produto/cadastro-produto.component';
 import { ListarProdutoComponent } from './restrito/listar-produto/listar-produto.component';
@@ -25,10 +26,11 @@ import { MenuProdutoComponent } from './restrito/menu-produto/menu-produto.compo
     LojaComponent,
     CarrinhoComponent,
     RestritoComponent,
+    // RestritoRoutingModule,
     AtualizarProdutoComponent,
     CadastroProdutoComponent,
     ListarProdutoComponent,
-    MenuProdutoComponent
+    MenuProdutoComponent,
   ],
   imports: [
     BrowserModule,

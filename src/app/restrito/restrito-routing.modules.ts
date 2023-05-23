@@ -21,4 +21,6 @@ const restritoRoutes: Routes = [
   imports: [RouterModule.forChild(restritoRoutes)],
   exports: [RouterModule]
 })
-export class RestritoRoutingModule { }
+export class restritoRoutingModule { 
+  
+}

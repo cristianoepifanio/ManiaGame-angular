@@ -1,5 +1,5 @@
 <header>
-    <a routerLink="/inicio">
+    <a [routerLink]="['/inicio']">
         <div class="logo">
             <h2>Mania Game</h2>
         </div>
@@ -7,13 +7,13 @@
     <div>
         <nav class="menu-desktop"  >
             
-                <a routerLink="/#">
+                <a [routerLink]="['/loja']">
                     <li>loja</li>
                 </a>
-                <a routerLink="/#">
+                <a [routerLink]="['/carrinho']">
                     <li>carrinho</li>
                 </a>
-                <a routerLink="/registro">
+                <a [routerLink]="['/registro']">
                     <div class="button">
                         <h2>Register</h2>
                     </div>
@@ -28,7 +28,7 @@
                     <a routerLink="/#">
                         <li >carrinho</li>
                     </a>
-                    <a routerLink="/registro">
+                    <a [routerLink]="['/registro']">
                         <div class="button ">
                             <h2>Register</h2>
                         </div>
