@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./loja.component.css']
 })
 export class LojaComponent {
+  games:string[] = []
+  constructor(){
+    this.games = [
+      "nome do jogo",
+      "descrição do jogo",
+      "preco do jogo",
+    ]
+  }
 
 }

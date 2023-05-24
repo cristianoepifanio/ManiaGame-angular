@@ -1,7 +1,7 @@
 <table class="table" style="margin-top: 100px   ;">
     <thead>
         <tr>
-            <th scope="col">id</th>
+            <th scope="col">numero</th>
             <th scope="col">Produto</th>
             <th scope="col">Descrição</th>
             <th scope="col">Preço</th>
@@ -11,12 +11,10 @@
     </thead>
     <tbody>
         <tr>
-            <th scope="row"></th>
-            <td></td>
-            <td></td>
-            <td></td>
+            <th scope="row" ></th>
+            <td *ngFor="let td  of games">{{td}}</td>
             <td><a class="btn btn-primary" routerLink="/restrito/editar/" role="button">Editar</a></td>
-            <td><a class="btn btn-danger" role="button">Excluir</a></td>
+            <td><a class="btn btn-danger" routerLink="/#" role="button">Excluir</a></td>
         </tr>
     </tbody>
 </table>
